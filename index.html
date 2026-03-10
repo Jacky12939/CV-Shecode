@@ -1,51 +1,136 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV</title>
+    <title>CV </title>
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <main>
-        <div class="sidebar">
-            <img src="/photo.png" alt=" ma photo" class="image">
-            <div class="adress">
-                <p>yaoundé cameroun</p>
-                <p>693 726 265</p>
-                <p>zBb7o@gmail.com</p>
-            </div>
-           
-            <div>
-                <h3>INFORMATIQUES</h3>
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                    <li>Word</li>
-                    <li>Excel</li>
-                    <li>Powerpoint</li>
-                </ul>
-                <h3>LANGUES</h3>
-                <ul>
-                    <li>francais</li>
-                    <li>anglais</li>
-                    <li>espagnol</li>
-                </ul>
-                <H3>CENTRES D'INTERET</H3>
-                <ul>
-                    <li>sport</li>
-                    <li>lecture</li>
-                    <li>voyage</li>
-                </ul>
-            </div>
+
+<div class="cv-container">
+    <aside class="sidebar">
+        <div class="profile-img-container">
+            <img src="/photo.png" alt="Photo de profil" class="profile-img">
         </div>
 
-        <div class="test">
-
+        <div class="info">
+            <ul>
+                <li><i class="fas fa-map-marker-alt"></i> Yaoundé <strong>Cameroun</strong></li>
+                <li><i class="fas fa-phone"></i> 693 736 000</li>
+                <li><i class="fas fa-envelope"></i> jacky@gmail.com</li>
+            </ul>
         </div>
+
+        <section class="sidebar-section">
+            <h3 class="sidebar-title">INFORMATIQUES</h3>
+            <ul>
+                <li>Word</li>
+                <li>Excel</li>
+                <li>Canva</li>
+                <li>HTML/li>
+                <li>CSS</li>
+            </ul>
+        </section>
+
+        <section class="sidebar-section">
+            <h3 class="sidebar-title">LANGUES</h3>
+            <ul>
+                <li><strong>// :</strong> Langue maternelle</li>
+                <li><strong>Français :</strong> lu, parlé, écrit</li>
+                <li><strong>Anglais :</strong> lu, écrit</li>
+            </ul>
+        </section>
+
+        <section class="sidebar-section">
+            <h3 class="sidebar-title">CENTRES D'INTERET</h3>
+            <ul>
+                <li>Internet</li>
+                <li>Lecture</li>
+                <li>Sport</li>
+            </ul>
+        </section>
+    </aside>
+
+    <main class="main-content">
+        <header class="header-section">
+            <h1>JACQUELINE</h1>
+            <div class="job-title">TITRE DU POSTE</div>
+            <p class="moi">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+        </header>
+
+        <section class="content-section">
+            <h2 class="section-title">EXPERIENCES PROFESSIONNELLES</h2>
+            
+            <div class="experience">
+                <div class="exp-header">
+                    <strong>TITRE DU POSTE</strong>
+                    <span>VILLE</span>
+                </div>
+                <div class="exp"> ENTREPRISE | date</div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Missions et résultats obtenus :</p>
+                <ul class="tache">
+                    <li>Tâche 1</li>
+                    <li>Tâche 2</li>
+                    <li>Tâche 3</li>
+                </ul>
+            </div>
+
+            <div class="experience">
+                <div class="exp-header">
+                    <strong>TITRE DU POSTE</strong>
+                    <span>VILLE</span>
+                </div>
+                <div class="exp"> ENTREPRISE | MOIS 2017 – MOIS 2017</div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Missions et résultats obtenus :</p>
+                <ul class="tache">
+                    <li>Tâche 1</li>
+                    <li>Tâche 2</li>
+                    <li>Tâche 3</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <h2 class="section-title">FORMATIONS</h2>
+            <div class="formation">
+                <span class="année">201-2029</span>
+                <div class="formation-details">
+                    <strong>FLorem ipsum dolor sit amet, consectetur adipiscing elit. Missions et résultats obtenusl</strong>
+                    <p>•  Missions et résultats obtenus Gestion</p>
+                </div>
+            </div>
+            <div class="formation">
+                <span class="année">2011-2013</span>
+                <div class="formation-details">
+                    <strong>Faculté des Sciences juridique, Economiques et Sociales Rabat-Agdal</strong>
+                    <p>•  Missions et résultats obtenus</p>
+                </div>
+            </div>
+            <div class="formation">
+                <span class="année">2010-2011</span>
+                <div class="formation-details">
+                    <strong>LYCÉE trtiyghfffffffk</strong>
+                    <p>• Baccalauréat en Scientifiques</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <h2 class="section-title">COMPETENCES</h2>
+            <ul class="competence">
+                <li>Connaissance 1</li>
+                <li>Connaissance 2</li>
+                <li>Connaissance 3</li>
+                <li>Connaissance 4</li>
+                <li>Connaissance 5</li>
+            </ul>
+        </section>
     </main>
+</div>
+
 </body>
 </html>
