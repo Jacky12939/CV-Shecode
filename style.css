@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+        main{
+        width: 40%;
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        background-color: beige;
+        padding-left: 10px;
+        
+            .sidebar{
+                width: 30%;
+                height: 88vh;
+                display: flex;
+                justify-content: start;
+                align-items: start;
+                flex-direction: column;
+                padding-left: 40px;
+                background-color: cadetblue;
+
+                    .image{
+                        width: 100px;
+                        height: 100px;
+                        border-radius: 50%;
+                    }
+            }
+        }
+}
+
+
+
